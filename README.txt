@@ -1,14 +1,10 @@
 📦 배포 방법 (GitHub + Vercel)
 
-1. GitHub에서 새 저장소 생성 또는 기존 저장소 사용
-2. 이 ZIP 파일 압축 풀고 GitHub에 업로드
-   → GitHub 페이지에서 'Add file' → 'Upload files'
-3. Vercel 접속 후 "New Project" 클릭
-4. GitHub 계정 연동 → 방금 업로드한 저장소 선택
-5. Framework: Vite, Root Directory: ./, Build Command: vite build, Output Directory: dist
-6. "Deploy" 누르면 자동으로 링크 생성됨
+1. GitHub에서 기존 저장소 열기 (propose-to-chaehee)
+2. 이 ZIP 파일 압축 풀고 기존 파일들 모두 덮어쓰기 업로드
+3. Vercel에서 자동 재배포 확인
+4. 완성된 링크 카카오톡에 보내기
 
-✨ 링크 복사해서 카카오톡에 보내면 완성!
-
-✅ 썸네일, 제목, 설명은 index.html 내 Open Graph 태그 수정 가능
-✅ 파일명은 main.jsx 기준으로 바뀜 (Vite 호환)
+✨ 이 버전은 썸네일 이미지와 경로 문제 해결됨!
+✅ 썸네일 경로: /thumbnail.png
+✅ vite.config.js 추가로 경로 깨짐 방지
